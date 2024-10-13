@@ -21,12 +21,13 @@ Before running the application, make sure you have the following:
 
 1. Clone this repository:
    git clone https://github.com/Spfd0/Multi-Call
+   
    cd multi-call
 
-2. Install the required dependencies:
+3. Install the required dependencies:
    pip3 install twilio 
 
-3. Set up your Twilio credentials:
+4. Set up your Twilio credentials:
    - Open the script and replace the placeholders for ACCOUNT_SID, AUTH_TOKEN, and TWILIO_NUMBER with your actual Twilio credentials.
 
 ## Usage
