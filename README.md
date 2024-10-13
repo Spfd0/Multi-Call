@@ -6,7 +6,7 @@
 
 This is a Python application that allows users to make multiple concurrent phone calls using the Twilio API. The application provides a graphical user interface (GUI) built with Tkinter for easy interaction.
 
-Keep in mind Twilio does have its limits...
+Keep in mind that Twilio does have its limits. Twilio upgraded accounts CAN send calls without caller ID verification, while trial accounts are locked to calling only verified caller ID phone numbers.
 
 ## Features
 
