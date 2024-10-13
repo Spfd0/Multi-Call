@@ -6,6 +6,8 @@
 
 This is a Python application that allows users to make multiple concurrent phone calls using the Twilio API. The application provides a graphical user interface (GUI) built with Tkinter for easy interaction.
 
+Keep in mind Twilio does have its limits...
+
 ## Features
 
 - Add contacts manually or load them from a file
