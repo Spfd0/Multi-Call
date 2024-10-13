@@ -22,7 +22,7 @@ Before running the application, make sure you have the following:
 1. Clone this repository:
    git clone https://github.com/Spfd0/Multi-Call
    
-   cd multi-call
+   cd Multi-Call
 
 3. Install the required dependencies:
    pip3 install twilio 
