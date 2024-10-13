@@ -1,2 +1,60 @@
-# Multi-Call
-Call phone numbers using the Twilio API
+# Multi-Caller Application
+
+This is a Python application that allows users to make concurrent phone calls using the Twilio API. The application provides a graphical user interface (GUI) built with Tkinter for easy interaction.
+
+## Features
+
+- Add contacts manually or load them from a file
+- Edit the message to be spoken during the call
+- Make concurrent calls to selected contacts
+- Clear the contact list
+- User-friendly GUI
+
+## Prerequisites
+
+Before running the application, make sure you have the following:
+
+- Python 3.7 or higher
+- A Twilio account with valid credentials (Account SID, Auth Token, and Twilio phone number)
+
+## Installation
+
+1. Clone this repository:
+   git clone https://github.com/yourusername/multi-caller-app.git
+   cd multi-caller-app
+
+2. Install the required dependencies:
+   pip install -r requirements.txt
+
+3. Set up your Twilio credentials:
+   - Open the script and replace the placeholders for ACCOUNT_SID, AUTH_TOKEN, and TWILIO_NUMBER with your actual Twilio credentials.
+
+## Usage
+
+1. Run the application:
+   python multi_caller_app.py
+
+2. Use the GUI to:
+   - Add contacts manually or load them from a file
+   - Edit the message to be spoken during the call
+   - Select contacts and initiate calls
+   - Clear the contact list
+
+## File Format for Loading Contacts
+
+When loading contacts from a file, use the following format:
+Name1,+1XXXXXXXXXX
+Name2,+1XXXXXXXXXX
+Each line should contain a name and a phone number separated by a comma. Phone numbers should be in the format +1XXXXXXXXXX.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Disclaimer
+
+This application is for educational purposes only. Please ensure you comply with all applicable laws and regulations when using this application to make automated phone calls.
