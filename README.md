@@ -20,11 +20,11 @@ Before running the application, make sure you have the following:
 ## Installation
 
 1. Clone this repository:
-   git clone https://github.com/yourusername/multi-caller-app.git
-   cd multi-caller-app
+   git clone https://github.com/Spfd0/Multi-Call
+   cd multi-call
 
 2. Install the required dependencies:
-   pip install -r requirements.txt
+   pip3 install twilio 
 
 3. Set up your Twilio credentials:
    - Open the script and replace the placeholders for ACCOUNT_SID, AUTH_TOKEN, and TWILIO_NUMBER with your actual Twilio credentials.
@@ -32,7 +32,7 @@ Before running the application, make sure you have the following:
 ## Usage
 
 1. Run the application:
-   python multi_caller_app.py
+   python multi_call_v2.0.py
 
 2. Use the GUI to:
    - Add contacts manually or load them from a file
@@ -43,13 +43,11 @@ Before running the application, make sure you have the following:
 ## File Format for Loading Contacts
 
 When loading contacts from a file, use the following format:
+
 Name1,+1XXXXXXXXXX
 Name2,+1XXXXXXXXXX
+
 Each line should contain a name and a phone number separated by a comma. Phone numbers should be in the format +1XXXXXXXXXX.
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
 
