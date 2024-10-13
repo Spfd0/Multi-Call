@@ -48,6 +48,7 @@ When loading contacts from a file, use the following format:
 
 Name1,+1XXXXXXXXXX
 Name2,+1XXXXXXXXXX
+Name3,+1XXXXXXXXXX
 
 Each line should contain a name and a phone number separated by a comma. Phone numbers should be in the format +1XXXXXXXXXX.
 
