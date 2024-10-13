@@ -1,6 +1,6 @@
 # Multi-Caller Application
 
-This is a Python application that allows users to make concurrent phone calls using the Twilio API. The application provides a graphical user interface (GUI) built with Tkinter for easy interaction.
+This is a Python application that allows users to make multiple concurrent phone calls using the Twilio API. The application provides a graphical user interface (GUI) built with Tkinter for easy interaction.
 
 ## Features
 
