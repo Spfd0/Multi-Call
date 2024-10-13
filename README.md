@@ -16,6 +16,7 @@ Before running the application, make sure you have the following:
 
 - Python 3.7 or higher
 - A Twilio account with valid credentials (Account SID, Auth Token, and Twilio phone number)
+- https://www.twilio.com/en-us
 
 ## Installation
 
